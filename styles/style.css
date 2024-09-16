@@ -1,0 +1,73 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    display: flex;
+  justify-content: center;
+}
+.contact_main{
+    display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  align-items: center;
+}
+#my_photo{
+    width: 30%;
+}
+.content{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        padding-top: 5%;
+}
+#delete_content{
+    background-color: orange;
+}
+#delete_header{
+    background-color: aqua;
+}
+#delete_footer{
+    background-color: greenyellow;
+}
+#languages_links{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+#java_link{
+    width: 40%;
+}
+#python_link{
+    width: 100%;
+}
+.photo_relaxing_img{
+    width: 20%;
+}
+.content_box{
+    width: 50%;
+}
+.footer_name{
+    display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+  height: 100px;
+}
+.footer{
+    display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  height: 100px;
+}
+.gallery{
+    width: 40%;
+}
+.footer_main{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    height: 100px;
+}
